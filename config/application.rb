@@ -21,10 +21,10 @@ module Floom
     # config.i18n.default_locale = :de
 
     # Add the fonts path
-    config.assets.path << "#{Rails.root}/app/assets/fonts"
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     # Precompile additional assets
-    config.assets.precompile += %w( .svg .eot .woff .ttf )
-    
+    config.assets.precompile += %w( .svg .eot .woff .ttf .woff2 )
+
   end
 end
